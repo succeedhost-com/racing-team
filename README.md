@@ -13,7 +13,7 @@ Repository
 
 ## Preview
 
-![Veloce Preview](./public/weather-app-preview.png)
+![Veloce Preview](./public/bmw-motor.png)
 
 ---
 
