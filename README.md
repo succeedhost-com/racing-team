@@ -13,7 +13,7 @@ Repository
 
 ## Preview
 
-![Veloce Preview](./public/bmw-motor.png)
+![Veloce Preview](./public/social-card.png)
 
 ---
 
