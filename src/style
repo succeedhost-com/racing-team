@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --color-carbon: #242424;
+  --color-racing: #e7000b;
+  --color-goldenrod: #d5a021;
+  --color-mint: #e5ece9;
+  --color-platinum: #f4f4f6;
+  --color-steel: #6b7280;
+}
