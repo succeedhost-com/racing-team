@@ -61,20 +61,28 @@ racing-team/
 
 ### Clone the Repository
 
+```
 git clone [https://github.com/succeedhost-com/racing-team.git](https://github.com/succeedhost-com/racing-team.git)
 cd racing-team
+```
 
 ### Install Dependencies
 
+```
 npm install
+```
 
 ### Run the Development Server
 
+```
 npm run dev
+```
 
 ### Build for Production
 
+```
 npm run build
+```
 
 ---
 
@@ -83,12 +91,14 @@ npm run build
 Color tokens are defined using CSS variables.
 Update these values to customize the theme.
 
+```
 :root {
 --color-racing: #ff4d4d;
 --color-mint: #b2ffda;
 --color-carbon: #1a1a1a;
 --color-platinum: #f5f5f7;
 }
+```
 
 ---
 
