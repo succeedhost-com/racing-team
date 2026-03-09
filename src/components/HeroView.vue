@@ -17,7 +17,7 @@
       class="h-[500px] w-full"
     >
       <swiper-slide v-for="part in autoParts" :key="part.id">
-        <div class="relative w-full h-full flex items-center justify-center bg-[var(--color-carbon, #222)]">
+        <div class="relative w-full h-full flex items-center justify-center bg-[var(--color-carbon)]">
           <img 
             :src="part.image" 
             class="absolute inset-0 w-full h-full object-cover opacity-40" 
@@ -26,10 +26,10 @@
           
           <div class="relative z-10 text-center px-[20px] py-[40px] bg-[rgba(34,34,34,0.8)] rounded-xl border border-white/10 mx-4">
             <h2 class="text-4xl md:text-5xl font-bold text-white mb-4">{{ part.name }}</h2>
-            <p class="text-[var(--color-goldenrod, #daa520)] text-lg md:text-xl max-w-[600px] leading-relaxed">
+            <p class="text-[var(--color-goldenrod)] text-lg md:text-xl max-w-[600px] leading-relaxed">
               {{ part.description }}
             </p>
-            <button class="bg-[var(--color-racing, #e10600)] mt-[30px] px-8 py-3 rounded-xl font-bold hover:scale-105 transition text-white uppercase tracking-wider">
+            <button class="bg-[var(--color-racing)] mt-[30px] px-8 py-3 rounded-xl font-bold hover:scale-105 transition text-white uppercase tracking-wider">
               {{ part.cta }}
             </button>
           </div>
@@ -38,7 +38,7 @@
     </swiper>
 
     <div v-else class="h-[500px] w-full bg-[#111] flex items-center justify-center">
-      <div class="animate-pulse text-[var(--color-racing, #e10600)] font-bold italic">
+      <div class="animate-pulse text-[var(--color-racing)] font-bold italic">
         LOADING PERFORMANCE...
       </div>
     </div>
