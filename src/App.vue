@@ -9,9 +9,9 @@ import { Swiper, SwiperSlide } from 'swiper/vue';
 import { Autoplay, EffectFade } from 'swiper/modules';
 
 // Import Swiper styles (Crucial!)
-//import 'swiper/css';
-//import 'swiper/css/autoplay';
-//import 'swiper/css/effect-fade'; // Only if you want a fade effect
+import 'swiper/css';
+import 'swiper/css/autoplay';
+import 'swiper/css/effect-fade'; // Only if you want a fade effect
 
 import { ref } from 'vue'
 
@@ -97,7 +97,7 @@ const closeMenu = () => {
   </button>
 </section>
     
-    <HeroSwiper v-if="route.path === '/'" />
+    <!--HeroSwiper v-if="route.path === '/'" /-->
     
     <section v-if="$route.path === '/'" id="hero-live" class="flex flex-col items-center justify-center text-center px-6 mb-5 bg-[var(--color-carbon)] text-[var(--color-platinum)]">
 
