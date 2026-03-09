@@ -42,6 +42,7 @@ Repository
 
 ## Project Structure
 
+```
 racing-team/
 
 ├── public/        Static assets
@@ -52,6 +53,7 @@ racing-team/
 │   └── assets     CSS and images
 ├── index.html
 └── vite.config.js
+```
 
 ---
 
