@@ -97,7 +97,7 @@ const closeMenu = () => {
   </button>
 </section>
     
-    <!--HeroSwiper v-if="route.path === '/'" /-->
+    <HeroSwiper v-if="route.path === '/'" />
     
     <section v-if="$route.path === '/'" id="hero-live" class="flex flex-col items-center justify-center text-center px-6 mb-5 bg-[var(--color-carbon)] text-[var(--color-platinum)]">
 
