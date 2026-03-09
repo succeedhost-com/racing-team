@@ -1,8 +1,19 @@
-
 # VELOCE – High-Performance Portfolio Framework
 
-Veloce is a modern portfolio framework built with **Vue 3** and **Tailwind CSS**.
-It focuses on performance, responsive design, and a clean, professional interface suitable for developer portfolios and technical showcases.
+Veloce is a modern portfolio framework built with Vue 3 and Tailwind CSS.
+It focuses on performance, responsive design, and a clean interface suitable for developer portfolios and technical showcases.
+
+Live Demo
+[https://racing.succeedhost.com/](https://racing.succeedhost.com/)
+
+Repository
+[https://github.com/succeedhost-com/racing-team](https://github.com/succeedhost-com/racing-team)
+
+---
+
+## Preview
+
+![Veloce Preview](./public/weather-app-preview.png)
 
 ---
 
@@ -29,32 +40,39 @@ It focuses on performance, responsive design, and a clean, professional interfac
 
 ---
 
+## Project Structure
+
+racing-team/
+
+├── public/        Static assets
+├── src/
+│   ├── components Reusable UI components
+│   ├── views      Page-level views
+│   ├── router     Vue Router configuration
+│   └── assets     CSS and images
+├── index.html
+└── vite.config.js
+
+---
+
 ## Getting Started
 
 ### Clone the Repository
 
-```bash
-git clone https://github.com/succeedhost-com/racing-team.git
+git clone [https://github.com/succeedhost-com/racing-team.git](https://github.com/succeedhost-com/racing-team.git)
 cd racing-team
-```
 
 ### Install Dependencies
 
-```bash
 npm install
-```
 
 ### Run the Development Server
 
-```bash
 npm run dev
-```
 
 ### Build for Production
 
-```bash
 npm run build
-```
 
 ---
 
@@ -63,14 +81,12 @@ npm run build
 Color tokens are defined using CSS variables.
 Update these values to customize the theme.
 
-```css
 :root {
-  --color-racing: #ff4d4d;
-  --color-mint: #b2ffda;
-  --color-carbon: #1a1a1a;
-  --color-platinum: #f5f5f7;
+--color-racing: #ff4d4d;
+--color-mint: #b2ffda;
+--color-carbon: #1a1a1a;
+--color-platinum: #f5f5f7;
 }
-```
 
 ---
 
@@ -86,3 +102,6 @@ Portfolio
 
 ---
 
+## License
+
+This project is licensed under the MIT License.
