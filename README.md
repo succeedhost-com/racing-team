@@ -1,6 +1,3 @@
-Here is a **clean, minimal, professional README** version with the racing theme toned down and all emojis removed.
-
----
 
 # VELOCE – High-Performance Portfolio Framework
 
