@@ -48,7 +48,7 @@
             </ul>
           </div>
 
-          <div class="flex flex-wrap gap-4">
+          <!--div class="flex flex-wrap gap-4">
             <button class="group relative px-8 py-3 overflow-hidden rounded-md bg-[var(--color-racing)] font-bold text-white transition-all hover:scale-105 active:scale-95">
               <span class="relative z-10">Download Resume</span>
               <div class="absolute inset-0 -translate-x-full group-hover:translate-x-0 bg-white/10 transition-transform duration-300"></div>
@@ -57,7 +57,7 @@
             <button class="px-8 py-3 rounded-md font-bold border border-[var(--color-mint)] text-[var(--color-carbon)] hover:bg-[var(--color-mint)] hover:text-[var(--color-carbon)] transition-all">
               View Projects
             </button>
-          </div>
+          </div-->
         </div>
 
       </div>
